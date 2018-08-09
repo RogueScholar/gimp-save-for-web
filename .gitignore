@@ -23,10 +23,10 @@
 /config.sub
 /configure
 /depcomp
-/gimp-2.0.pc
+/gimp-3.0.pc
 /gimp-zip
-/gimpthumb-2.0.pc
-/gimpui-2.0.pc
+/gimpthumb-3.0.pc
+/gimpui-3.0.pc
 /gtk-doc.make
 /install-sh
 /intltool-extract

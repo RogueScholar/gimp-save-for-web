@@ -135,12 +135,12 @@ changequote([,])dnl
 GIMP_REQUIRED_VERSION=2.3.0
 
 PKG_CHECK_MODULES(GIMP,
-  gimp-2.0 >= $GIMP_REQUIRED_VERSION gimpui-2.0 >= $GIMP_REQUIRED_VERSION)
+  gimp-3.0 >= $GIMP_REQUIRED_VERSION gimpui-3.0 >= $GIMP_REQUIRED_VERSION)
 
 AC_SUBST(GIMP_CFLAGS)
 AC_SUBST(GIMP_LIBS)
 
-GIMP_LIBDIR=`$PKG_CONFIG --variable=gimplibdir gimp-2.0`
+GIMP_LIBDIR=`$PKG_CONFIG --variable=gimplibdir gimp-3.0`
 AC_SUBST(GIMP_LIBDIR)
 
 
@@ -180,7 +180,7 @@ fi
 
 
 AC_MSG_CHECKING([if GIMP is version 2.3.0 or newer])
-if $PKG_CONFIG --atleast-version=2.3.0 gimp-2.0; then
+if $PKG_CONFIG --atleast-version=2.3.0 gimp-3.0; then
   have_gimp_2_3=yes
 else
   have_gimp_2_3=no
