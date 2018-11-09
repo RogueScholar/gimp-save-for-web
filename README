@@ -1,5 +1,5 @@
-Save for Web plug-in for The GIMP
-=================================
+Save for Web plug-in for The GIMP 3.0
+=====================================
 
 Save for Web plug-ins allows to experiment with various popular web format
 options. It shows an automatically updated preview and file size statistics.
@@ -7,7 +7,7 @@ options. It shows an automatically updated preview and file size statistics.
 Pre-requisites
 ==============
 To compile in Debian/Ubuntu, first install the following:
-$ sudo apt-get install libtool automake intltool libgimp2.0-dev
+$ sudo apt-get install libtool automake intltool libgimp3.0-dev
 
 Building
 ========
